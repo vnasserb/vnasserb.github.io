@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>Vinicius Nasser Bernaldo</h1>
+<h2>Informações Gerais</h2>
+<ul>
+<li>Nasci em São Paulo (04/05/1998)</li>
+<li>Moro em Santo André</li>
+<li>Entrei na UFABC em Junho de 2017</li>
+<li>Sou estudante da Engenharia de Informação e Ciência da Computação</li>
+
+</ul>
+
+<h2>Preferências literárias</h2>
+<ul>
+<li>Livros de suspense/policial
+	<ul>
+		<li>Harlan Coben</li>
+    	<li>Agatha Christie</li>
+        <li>Arthur Conan Doyle (Sherlock Holmes)</li>
+    </ul>
+</li>
+<li>Contos
+	<ul>
+		<li>Machado de Assis</li>
+    	<li>Edgar Allan Poe</li>
+        <li>Arthur Conan Doyle (Sherlock Holmes)</li>
+    </ul>
+</li>
+<li>Coleções de Conhecimento geral
+	<ul>
+		<li>Livro da Filosofia</li>
+    	<li>O Livro da Política</li>
+        <li>O Livro da Ciência</li>
+        <li>1001 Ideias que mudaram o mundo</li>
+    </ul>
+</li>
