@@ -6,18 +6,57 @@
 <link rel="stylesheet" href="style1.css"> <!--"https://www.w3schools.com/w3css/4/w3.css"-->
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">	
 <style>
-	.Texto_Imagem{
-	text-align: top;
+.Texto_Imagem{
+	text-align: bottom;
 	font-weight: bold;
-	img-align: bottom;
+	img-align: center;
 	border: solid 1 px;
 	}
+    
+.Texto_Video{
+	text-align: bottom;
+	font-weight: bold;
+	iframe-align: center;
+	border: solid 1 px;
+	}
+    
+.container {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    border-width: 0px;
+}
+	
+.integrante{
+    display: flex;  
+    min-width: 100px;
+    flex-grow: 1;
+    position: relative;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
+.ImagensContainer{
+    height: auto;
+    width: 100%;
+    display: flex;
+    padding-top: 20px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    flex-wrap: wrap;
+    background-color: transparent;
+}
+	
 #FotoDeCapa{
 	text-align: right;
 	img-align: left;
 	border: solid 1 px;
 	}
+
 </style>	
 </head>
 
@@ -26,81 +65,119 @@
 <h1 style = "text-align: center">Vinicius Nasser Bernaldo</h1>
 <p style = "text-align: center">Página do aluno Vinicius Nasser Bernaldo para o Laboratório 1 ("Nós Multimídia") da disciplina Codificação de Sinais Multimídia</p>
 <h2 style = "text-align: center">Informações Gerais</h2>
-<p id ="FotoDeCapa"><img src = "Lab1CSM\DesaparecidoParaSempre.png">
-<ul>
-<li>Nasci em São Paulo (04/05/1998)</li>
-<li>Moro em Santo André</li>
-<li>Entrei na UFABC em Junho de 2017</li>
-<li>Sou estudante da Engenharia de Informação e Ciência da Computação</li>
-</ul>
-</p>	
+<div id = "FotoDeCapa">	
+<p><img src = "Lab1CSM\DesaparecidoParaSempre.png" alt = "Vinicius Nasser Bernaldo">
+Nasci em São Paulo em 04/05/1998, mas sempre morei em Santo André.</br>
+Entrei na UFABC em Junho de 2017 e, durante a minha graduação, optei por me tornar um estudante da Engenharia de Informação e Ciência da Computação. Atualmente, sou estagiário do time de planejamento no HURB Technologies
+</p>
+</div>	
 
 <h2>Preferências literárias</h2>
 <ul>
 <li>Livros de suspense/policial
-	<p class = "Texto_Imagem">
-	<img src = "Lab1CSM\DesaparecidoParaSempre.png" alt="Desaparecido Para Sempre" style="width:100%">Harlan Coben</p>
-    	<li>Agatha Christie</li>
-        <li>Arthur Conan Doyle (Sherlock Holmes)</li>
-    </ul>
+<div class = "ImagensContainer">
+<div class = "Texto_Imagem">	
+	<p><img src = "Lab1CSM\DesaparecidoParaSempre.png" alt="Desaparecido Para Sempre" style="width:100%">Harlan Coben</p>
+</div>
+<div class = "Texto_Imagem">	
+	<p><img src = "Lab1CSM\DesaparecidoParaSempre.png" alt="Assassinato no Expresso do Oriente" style="width:100%">Agatha Christie</p>
+</div>
+<div class = "Texto_Imagem">	
+	<p><img src = "Lab1CSM\DesaparecidoParaSempre.png" alt="Sherlock Holmes" style="width:100%">Arthur Conan Doyle (Sherlock Holmes)</p>
+</div>
+</div>
 </li>
-<li>Contos
-	<ul>
-		<li>Machado de Assis</li>
-    	<li>Edgar Allan Poe</li>
-        <li>Arthur Conan Doyle (Sherlock Holmes)</li>
-    </ul>
-</li>
+
 <li>Coleções de Conhecimento geral
-	<ul>
-		<li>Livro da Filosofia</li>
-    	<li>O Livro da Política</li>
-        <li>O Livro da Ciência</li>
-        <li>1001 Ideias que mudaram o mundo</li>
-    </ul>
+	<div class = "ImagensContainer">
+<div class = "Texto_Imagem">	
+	<p><img src = "Lab1CSM\DesaparecidoParaSempre.png" alt="Desaparecido Para Sempre" style="width:100%">Livro da Filosofia</p>
+</div>
+<div class = "Texto_Imagem">	
+	<p><img src = "Lab1CSM\DesaparecidoParaSempre.png" alt="Assassinato no Expresso do Oriente" style="width:100%">O Livro da Política</p>
+</div>
+<div class = "Texto_Imagem">	
+	<p><img src = "Lab1CSM\DesaparecidoParaSempre.png" alt="Sherlock Holmes" style="width:100%">O Livro da Ciência</p>
+</div>
+<div class = "Texto_Imagem">	
+	<p><img src = "Lab1CSM\DesaparecidoParaSempre.png" alt="Sherlock Holmes" style="width:100%">1001 Ideias que mudaram o mundo</p>
+</div>
+</div>
 </li>
+
 <li>Clássicos da Literatura
-	<ul>
-		<li>Frankenstein</li>
-    	<li>1984</li>
-        <li>A Ilha do Tesouro</li>
-        <li>E muitos outros!</li>
-    </ul>
+	
+<div class = "ImagensContainer">
+<div class = "Texto_Imagem">	
+	<p><img src = "Lab1CSM\DesaparecidoParaSempre.png" alt="Desaparecido Para Sempre" style="width:100%">Frankenstein</p>
+</div>
+<div class = "Texto_Imagem">	
+	<p><img src = "Lab1CSM\DesaparecidoParaSempre.png" alt="Assassinato no Expresso do Oriente" style="width:100%">1984</p>
+</div>
+<div class = "Texto_Imagem">	
+	<p><img src = "Lab1CSM\DesaparecidoParaSempre.png" alt="Sherlock Holmes" style="width:100%">A Ilha do Tesouro</p>
+</div>
+</div>
 </li>
-</ul>]
+</ul>
 
 <h2>Filmes, séries, música e jogos favoritos</h2>
 <li>Filmes
-	<ul>
-		<li>O sexto sentido</li>
-    	<li>Trilogia de Batman: o Cavaleiro das Trevas</li>
-    </ul>
+	
+<div class = "ImagensContainer">
+<div class = "Texto_Imagem">	
+	<p><img src = "Lab1CSM\DesaparecidoParaSempre.png" alt="Desaparecido Para Sempre" style="width:100%">O sexto sentido</p>
+</div>
+<div class = "Texto_Imagem">	
+	<p><img src = "Lab1CSM\DesaparecidoParaSempre.png" alt="Assassinato no Expresso do Oriente" style="width:100%">Trilogia de Batman: o Cavaleiro das Trevas</p>
+</div>
+</div>
 </li>
+
 <li>Séries
-	<ul>
-	<li>The Office</li>
-    	<li>How I Met Your Mother</li>
-        <li>Two and a Half Man</li>
-        <li>Brooklyn 99</li>
-        <li>The Blacklist</li>
-    </ul>
+	
+<div class = "ImagensContainer">
+<div class = "Texto_Imagem">	
+	<p><img src = "Lab1CSM\DesaparecidoParaSempre.png" alt="Desaparecido Para Sempre" style="width:100%">The Office</p>
+</div>
+<div class = "Texto_Imagem">	
+	<p><img src = "Lab1CSM\DesaparecidoParaSempre.png" alt="Assassinato no Expresso do Oriente" style="width:100%">How I Met Your Mother</p>
+</div>
+<div class = "Texto_Imagem">	
+	<p><img src = "Lab1CSM\DesaparecidoParaSempre.png" alt="Sherlock Holmes" style="width:100%">Two and a Half Man</p>
+</div>
+<div class = "Texto_Imagem">	
+	<p><img src = "Lab1CSM\DesaparecidoParaSempre.png" alt="Sherlock Holmes" style="width:100%">Brooklyn 99<</p>
+</div>
+<div class = "Texto_Imagem">	
+	<p><img src = "Lab1CSM\DesaparecidoParaSempre.png" alt="Sherlock Holmes" style="width:100%">The Blacklist<</p>
+</div>
+</div>
 </li>
-<li>Jogos
-	<ul>
-	<li>FIFA</li>
-    	<li>NBA 2K</li>
-        <li>God of War</li>
-        <li>Coleção Uncharted</li>
-        <li>Coleção The Last of Us</li>
-        <li>Super Mario World</li>
-    </ul>
-</li>
+
 <li>Música
-	<ul>
-	<li>Red Hot Chili Peppers</li>
-    	<li>Linkin Park</li>
-        <li>Daft Punk</li>
-        <li>Coldplay</li>
-    </ul>
+	
+    <div class = "ImagensContainer">
+<div class = "Texto_Imagem">	
+	<p><iframe width="100" height="60"
+src="https://www.youtube.com/watch?v=C2-CWmRuE9s">
+</iframe>Red Hot Chili Peppers</p>
+</div>
+<div class = "Texto_Imagem">	
+	<p><iframe width="100" height="60"
+src="https://www.youtube.com/watch?v=B1rVLrFO3WQ">
+</iframe>Linkin Park</p>
+</div>
+<div class = "Texto_Imagem">	
+	<p><iframe width="100" height="60"
+src="https://www.youtube.com/watch?v=4D7u5KF7SP8">
+</iframe>Daft Punk</p>
+</div>
+<div class = "Texto_Imagem">	
+	<p><iframe width="100" height="60"
+src="https://www.youtube.com/watch?v=XsMpXczOIPs">
+</iframe>Coldplay</p>
+</div>
+</div>
 </li>
 </body>
