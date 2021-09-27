@@ -13,10 +13,29 @@
 	border: solid 1 px;
 	}
     
+.ItensList{
+    min-width: 300px;
+    width: auto;
+    padding-left: 10px;
+    list-style-type:circle;
+    font-size: 10;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-weight: lighter;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    position: relative;
+    
+}    
+    
 .Texto_Video{
 	text-align: bottom;
 	font-weight: bold;
-	iframe-align: center;
+	iframe-position: relative;
 	border: solid 1 px;
 	}
     
@@ -39,16 +58,8 @@
 }
 
 .ImagensContainer{
-    height: auto;
-    width: 100%;
-    display: flex;
-    padding-top: 20px;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    align-self: center;
-    flex-wrap: wrap;
-    background-color: transparent;
+    display: inline;
+    list-style-type: None
 }
 	
 #FotoDeCapa{
@@ -56,128 +67,116 @@
 	img-align: left;
 	border: solid 1 px;
 	}
+    
+
+nav ul{
+margin: 20;
+padding: 0;
+}
+
+nav ul li{
+list-style-type: none;
+display: inline
+}
 
 </style>	
 </head>
 
-<body>
+<body class>
 
 <h1 style = "text-align: center">Vinicius Nasser Bernaldo</h1>
 <p style = "text-align: center">Página do aluno Vinicius Nasser Bernaldo para o Laboratório 1 ("Nós Multimídia") da disciplina Codificação de Sinais Multimídia</p>
-<h2 style = "text-align: center">Informações Gerais</h2>
+<h2 style = "text-align: center">Sobre mim</h2>
 <div id = "FotoDeCapa">	
-<p><img src = "Lab1CSM\DesaparecidoParaSempre.png" alt = "Vinicius Nasser Bernaldo">
+<p><img src = "DesaparecidoParaSempre.png" alt = "Vinicius Nasser Bernaldo">
 Nasci em São Paulo em 04/05/1998, mas sempre morei em Santo André.</br>
-Entrei na UFABC em Junho de 2017 e, durante a minha graduação, optei por me tornar um estudante da Engenharia de Informação e Ciência da Computação. Atualmente, sou estagiário do time de planejamento no HURB Technologies
+Iniciei minha jornada na UFABC em Junho de 2017 e, durante a minha graduação, optei por me tornar um estudante da Engenharia de Informação e Ciência da Computação.</br>
+Atualmente, sou estagiário do time de planejamento no HURB Technologies, o antigo Hotel Urbano. Sou responsável por fazer análise de dados para fornecer relatórios para os demais setores, que vão desde a negociação de tarifas aéreas até reservas de hotéis. Além disso, também trabalho no desenvolvimento de sistemas em Python ou Javascript para a otimização de processos. 
 </p>
 </div>	
 
-<h2>Preferências literárias</h2>
-<ul>
-<li>Livros de suspense/policial
-<div class = "ImagensContainer">
-<div class = "Texto_Imagem">	
-	<p><img src = "./assets/DesaparecidoParaSempre.png" alt="Desaparecido Para Sempre" style="width:100%">Harlan Coben</p>
-</div>
-<div class = "Texto_Imagem">	
-	<p><img src = "Lab1CSM\DesaparecidoParaSempre.png" alt="Assassinato no Expresso do Oriente" style="width:100%">Agatha Christie</p>
-</div>
-<div class = "Texto_Imagem">	
-	<p><img src = "Lab1CSM\DesaparecidoParaSempre.png" alt="Sherlock Holmes" style="width:100%">Arthur Conan Doyle (Sherlock Holmes)</p>
-</div>
-</div>
-</li>
+<h2>Preferências literárias</h2>	
+	<li>Livros de suspense/policial
+		<nav>	
+            <ul>
+				<li><img src = "Lab1CSM\DesaparecidoParaSempre.png" alt="Desaparecido Para Sempre" style="width="150" height="200""></li>
+
+				<li><img src = "Lab1CSM\DesaparecidoParaSempre.png" alt="Assassinato no Expresso do Oriente" style="width="150" height="200""></li>
+	
+				<li><img src = "Lab1CSM\DesaparecidoParaSempre.png" alt="Sherlock Holmes" style="width="150" height="200""></li>
+			</ul>
+		</nav>
+        <p style="text-align: center">Sou muito fã da literatura policial. Acima estão imagens das obras que mais gostei dos meus autores favoritos.</p>
+	</li>
 
 <li>Coleções de Conhecimento geral
-	<div class = "ImagensContainer">
-<div class = "Texto_Imagem">	
-	<p><img src = "Lab1CSM\DesaparecidoParaSempre.png" alt="Desaparecido Para Sempre" style="width:100%">Livro da Filosofia</p>
-</div>
-<div class = "Texto_Imagem">	
-	<p><img src = "Lab1CSM\DesaparecidoParaSempre.png" alt="Assassinato no Expresso do Oriente" style="width:100%">O Livro da Política</p>
-</div>
-<div class = "Texto_Imagem">	
-	<p><img src = "Lab1CSM\DesaparecidoParaSempre.png" alt="Sherlock Holmes" style="width:100%">O Livro da Ciência</p>
-</div>
-<div class = "Texto_Imagem">	
-	<p><img src = "Lab1CSM\DesaparecidoParaSempre.png" alt="Sherlock Holmes" style="width:100%">1001 Ideias que mudaram o mundo</p>
-</div>
-</div>
+	<nav>
+    	<ul>	
+			<li><img src = "Lab1CSM\DesaparecidoParaSempre.png" alt="Livro da Filosofia" style="width="150" height="200""></li>	
+			<li><img src = "Lab1CSM\DesaparecidoParaSempre.png" alt="O Livro da Política" style="width="150" height="200""></li>	
+			<li><img src = "Lab1CSM\DesaparecidoParaSempre.png" alt="O Livro da Ciência" style="width="150" height="200""></li>	
+			<li><img src = "Lab1CSM\DesaparecidoParaSempre.png" alt="1001 Ideias que mudaram o mundo" style="width="150" height="200""></li>
+		</ul>
+	</nav>
+    <p style="text-align: center">Também gosto muito de livros que trazem um panorama geral um determinado assunto. Acima estão alguns livros que foram importantes para meu desenvolvimento em várias áreas do conhecimento.</p>
 </li>
 
 <li>Clássicos da Literatura
+	<nav>
+    	<ul>	
+			<li><img src = "Lab1CSM\DesaparecidoParaSempre.png" alt="Frankenstein" style="width="150" height="200""></li>
 	
-<div class = "ImagensContainer">
-<div class = "Texto_Imagem">	
-	<p><img src = "Lab1CSM\DesaparecidoParaSempre.png" alt="Desaparecido Para Sempre" style="width:100%">Frankenstein</p>
-</div>
-<div class = "Texto_Imagem">	
-	<p><img src = "Lab1CSM\DesaparecidoParaSempre.png" alt="Assassinato no Expresso do Oriente" style="width:100%">1984</p>
-</div>
-<div class = "Texto_Imagem">	
-	<p><img src = "Lab1CSM\DesaparecidoParaSempre.png" alt="Sherlock Holmes" style="width:100%">A Ilha do Tesouro</p>
-</div>
-</div>
+			<li><img src = "Lab1CSM\DesaparecidoParaSempre.png" alt="1984" style="width="150" height="200""></li>
+	
+			<li><img src = "Lab1CSM\DesaparecidoParaSempre.png" alt="A Ilha do Tesouro" style="width="150" height="200""></li>
+		</ul>
+	</nav>
+    <p style="text-align: center">Os clássicos da literatura são muito queridos também. Acima estão algumas obras que foram leituras muito interessantes.</p>
 </li>
-</ul>
 
 <h2>Filmes, séries, música e jogos favoritos</h2>
 <li>Filmes
-	
-<div class = "ImagensContainer">
-<div class = "Texto_Imagem">	
-	<p><img src = "Lab1CSM\DesaparecidoParaSempre.png" alt="Desaparecido Para Sempre" style="width:100%">O sexto sentido</p>
-</div>
-<div class = "Texto_Imagem">	
-	<p><img src = "Lab1CSM\DesaparecidoParaSempre.png" alt="Assassinato no Expresso do Oriente" style="width:100%">Trilogia de Batman: o Cavaleiro das Trevas</p>
-</div>
-</div>
-</li>
+<nav>	
+    <ul>	
+		<li><img src = "Lab1CSM\DesaparecidoParaSempre.png" alt="O sexto sentidi" style="width="150" height="200""></li>
+
+		<li><img src = "Lab1CSM\DesaparecidoParaSempre.png" alt="Batman" style="width="150" height="200""></li>
+	</ul>
+</nav>
+<p style="text-align: center">Não sou cinéfilo, mas sempre me interesso por filmes de ação ou drama. Assim, acima está um exemplo de cada</p>
+</li>    
 
 <li>Séries
-	
-<div class = "ImagensContainer">
-<div class = "Texto_Imagem">	
-	<p><img src = "Lab1CSM\DesaparecidoParaSempre.png" alt="Desaparecido Para Sempre" style="width:100%">The Office</p>
-</div>
-<div class = "Texto_Imagem">	
-	<p><img src = "Lab1CSM\DesaparecidoParaSempre.png" alt="Assassinato no Expresso do Oriente" style="width:100%">How I Met Your Mother</p>
-</div>
-<div class = "Texto_Imagem">	
-	<p><img src = "Lab1CSM\DesaparecidoParaSempre.png" alt="Sherlock Holmes" style="width:100%">Two and a Half Man</p>
-</div>
-<div class = "Texto_Imagem">	
-	<p><img src = "Lab1CSM\DesaparecidoParaSempre.png" alt="Sherlock Holmes" style="width:100%">Brooklyn 99<</p>
-</div>
-<div class = "Texto_Imagem">	
-	<p><img src = "Lab1CSM\DesaparecidoParaSempre.png" alt="Sherlock Holmes" style="width:100%">The Blacklist<</p>
-</div>
-</div>
+	<nav>
+    	<ul>
+			<li><img src = "Lab1CSM\DesaparecidoParaSempre.png" alt="The Office" style="width="150" height="200""></li>
+            	
+			<li><img src = "Lab1CSM\DesaparecidoParaSempre.png" alt="How I Met Your Mother" style="width="150" height="200""></li>
+            
+			<li><img src = "Lab1CSM\DesaparecidoParaSempre.png" alt="Two and a Half Man" style="width="150" height="200"">Two and a Half Man</li>
+
+			<li><img src = "Lab1CSM\DesaparecidoParaSempre.png" alt="Brooklyn 99" style="width="150" height="200""></li>
+            
+			<li><img src = "Lab1CSM\DesaparecidoParaSempre.png" alt="The Blacklist" style="width="150" height="200""></li>
+		</ul>
+	</nav>
+    <p style="text-align: center">Assistir seriados está entre os meus principais hobbies. Gosto muito de comédias e suspenses.</p>
 </li>
 
 <li>Música
+	<nav>
+    	<ul>
+			<li><iframe width="150" height="200" src="https://www.youtube.com/embed/C2-CWmRuE9s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+            
+
+			<li><iframe width="150" height="200" src="https://www.youtube.com/embed/B1rVLrFO3WQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+
 	
-    <div class = "ImagensContainer">
-<div class = "Texto_Imagem">	
-	<p><iframe width="100" height="60"
-src="https://www.youtube.com/watch?v=C2-CWmRuE9s">
-</iframe>Red Hot Chili Peppers</p>
-</div>
-<div class = "Texto_Imagem">	
-	<p><iframe width="100" height="60"
-src="https://www.youtube.com/watch?v=B1rVLrFO3WQ">
-</iframe>Linkin Park</p>
-</div>
-<div class = "Texto_Imagem">	
-	<p><iframe width="100" height="60"
-src="https://www.youtube.com/watch?v=4D7u5KF7SP8">
-</iframe>Daft Punk</p>
-</div>
-<div class = "Texto_Imagem">	
-	<p><iframe width="100" height="60"
-src="https://www.youtube.com/watch?v=XsMpXczOIPs">
-</iframe>Coldplay</p>
-</div>
-</div>
-</li>
+			<li><iframe width="150" height="200" src="https://www.youtube.com/embed/4D7u5KF7SP8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+
+			<li><iframe width="150" height="200" src="https://www.youtube.com/embed/XsMpXczOIPs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+
+		</ul>
+	</nav>
 </body>
+</html>
